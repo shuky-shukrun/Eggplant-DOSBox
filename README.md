@@ -22,3 +22,5 @@ your antivirus may say someting about viruses, this is why you can check the sou
 BONUS:
 Type newasm on notepad++ and then Ctrl+Alt+N.
 It will create a simple asm file.
+
+![Eggplant DOSBox Window](/images/EggplantDOSboxWindow.png)
