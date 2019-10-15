@@ -1,12 +1,15 @@
 # Eggplant-DOSBox
 An automation tool for running and debugging .asm files with DOSBox.
 
-This is a beta version and I'll probebly leave it that way.
-I created this project in my 2th semester so the coding level is is probably low.
+Many times (espasially when you're student...) you write a code, run it, and get a compilation error. No big deal when you work on modern operating system, but super annoing when it's stuck your DOSBox emulator and force you to reboot.
+This tool take care of this problem for you. It's open DOSBox, mount the nessecery folders, compile and run / run the debugger for you.
 
-* This version should work with single or multiple asm and c files.
-* This is not a compiler or debuger so it wont tell you if have logic or syntax error.
-All it does is just launch everything for you.
+This is a beta version and I'll probebly leave it that way.
+**I created this project in my 2th semester so the coding level is... 2th-semester-student-level :)**
+The project based on Auto Hot Key - AHK, an old, open source automation language, developed by Microsoft.
+
+* This version should work with single or multiple asm and c files (auto detected).
+* This is not a compiler or debuger so it wont tell you if have logic or syntax error - it only automate your run process.
 
 ## User Instractions:
 - Make sure you installed DOSBox 0.74/0.74-2 and Notepad++ on your computer.
