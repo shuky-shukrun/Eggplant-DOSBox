@@ -1,0 +1,35 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="42030" Ctrl="yes" Alt="no" Shift="no" Key="77" />
+        <Shortcut id="41001" Ctrl="no" Alt="yes" Shift="no" Key="8" />
+        <Shortcut id="42031" Ctrl="yes" Alt="no" Shift="yes" Key="77" />
+        <Shortcut id="42029" Ctrl="yes" Alt="yes" Shift="yes" Key="77" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing Space and Save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+        <Macro name="newasm" Ctrl="yes" Alt="no" Shift="yes" Key="78">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="newasm" />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="; Eggplant\n.MODEL SMALL\n.STACK 100h\n.DATA\n\n\n\n.CODE\nProgStart:\n\tMOV AX, @DATA\n\tMOV DS, AX\n\t\n\t\n\t\n\tMOV AH, 4ch\n\tINT 21h\nEND ProgStart" />
+            <Action type="3" message="1702" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1609" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Chrome" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Launch in Safari" Ctrl="yes" Alt="yes" Shift="yes" Key="65">safari &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">https://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="Open file in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_FULL_FILE_PATH) $(CURRENT_WORD) -nosession -multiInst</Command>
+        <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="EggplantDOSBox" Ctrl="no" Alt="yes" Shift="no" Key="116">C:\TC\BIN\EggplantDOSBox.exe</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>

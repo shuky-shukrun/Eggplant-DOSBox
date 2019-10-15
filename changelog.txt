@@ -1,0 +1,19 @@
+v0.5:
+-Rewrite and design everything from scratch
+-New UI
+-New Installation process
+-Support for multiple asm files
+
+
+(v0.4 - skiped:
+-Rewrite the setup sctript again :)
+-Added support for DOSBox-0.74-2
+-Bugs fix)
+
+v0.3.1:
+-Allow you to run/debug .asm files from any folder in your computer.
+-Bugs fix
+
+v0.2:
+-Rewrite the setup sctript
+-If DOSBox is open - don't open a new window
